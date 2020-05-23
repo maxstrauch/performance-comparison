@@ -1,0 +1,346 @@
+{
+    "type": "bar",
+    "data": {
+        "labels": [
+            "100",
+            "200",
+            "400",
+            "800"
+        ],
+        "datasets": [
+            {
+                "label": "ASP.NET Core",
+                "backgroundColor": "rgba(33, 150, 243, 0.2)",
+                "borderColor": "rgb(33, 150, 243)",
+                "borderWidth": 1,
+                "data": [
+                    1.2515682373046875,
+                    1.853489013671875,
+                    3.899294921875,
+                    11.2490849609375
+                ],
+                "stdev": [
+                    1.7469847412109376,
+                    1.641242431640625,
+                    2.075135009765625,
+                    47.183140625
+                ]
+            },
+            {
+                "label": ".NET Core Nancy",
+                "backgroundColor": "rgba(0, 188, 212, 0.2)",
+                "borderColor": "rgb(0, 188, 212)",
+                "borderWidth": 1,
+                "data": [
+                    45.20066015625,
+                    45.3837421875,
+                    46.3315703125,
+                    56.6292578125
+                ],
+                "stdev": [
+                    6.45776220703125,
+                    7.0965849609375,
+                    7.255853515625,
+                    42.34212890625
+                ]
+            },
+            {
+                "label": "Go",
+                "backgroundColor": "rgba(96, 125, 139, 0.2)",
+                "borderColor": "rgb(96, 125, 139)",
+                "borderWidth": 1,
+                "data": [
+                    1.0110376586914063,
+                    2.096970703125,
+                    5.8486875,
+                    10.6759365234375
+                ],
+                "stdev": [
+                    1.0979093017578125,
+                    2.351487548828125,
+                    38.341953125,
+                    47.794734375
+                ]
+            },
+            {
+                "label": "NodeJS Express",
+                "backgroundColor": "rgba(0, 150, 136, 0.2)",
+                "borderColor": "rgb(0, 150, 136)",
+                "borderWidth": 1,
+                "data": [
+                    6.93009228515625,
+                    14.178849609375,
+                    29.235451171875,
+                    67.0890234375
+                ],
+                "stdev": [
+                    2.0113826904296874,
+                    4.1551376953125,
+                    30.154912109375,
+                    73.624875
+                ]
+            },
+            {
+                "label": "NodeJS Fastify",
+                "backgroundColor": "rgba(76, 175, 80, 0.2)",
+                "borderColor": "rgb(76, 175, 80)",
+                "borderWidth": 1,
+                "data": [
+                    2.746547119140625,
+                    5.64124267578125,
+                    13.4782490234375,
+                    28.556013671875
+                ],
+                "stdev": [
+                    1.71514697265625,
+                    3.386524169921875,
+                    38.983359375,
+                    55.85268359375
+                ]
+            },
+            {
+                "label": "NodeJS NestJS (Express)",
+                "backgroundColor": "rgba(205, 220, 57, 0.2)",
+                "borderColor": "rgb(205, 220, 57)",
+                "borderWidth": 1,
+                "data": [
+                    5.80823583984375,
+                    12.357421875,
+                    24.445650390625,
+                    51.5071328125
+                ],
+                "stdev": [
+                    2.373492919921875,
+                    13.8697099609375,
+                    13.446701171875,
+                    64.45976953125
+                ]
+            },
+            {
+                "label": "NodeJS NestJS (Fastify)",
+                "backgroundColor": "rgba(255, 235, 59, 0.2)",
+                "borderColor": "rgb(255, 235, 59)",
+                "borderWidth": 1,
+                "data": [
+                    3.01404638671875,
+                    6.439537109375,
+                    14.078,
+                    31.67913671875
+                ],
+                "stdev": [
+                    1.2889622802734375,
+                    2.841939453125,
+                    28.991763671875,
+                    45.7046484375
+                ]
+            },
+            {
+                "label": "NodeJS plain server",
+                "backgroundColor": "rgba(255, 193, 7, 0.2)",
+                "borderColor": "rgb(255, 193, 7)",
+                "borderWidth": 1,
+                "data": [
+                    2.75651123046875,
+                    5.7296904296875,
+                    12.583005859375,
+                    23.687244140625
+                ],
+                "stdev": [
+                    1.996565185546875,
+                    2.33426904296875,
+                    2.54521630859375,
+                    30.716529296875
+                ]
+            },
+            {
+                "label": "NodeJS Ts.ED",
+                "backgroundColor": "rgba(255, 87, 34, 0.2)",
+                "borderColor": "rgb(255, 87, 34)",
+                "borderWidth": 1,
+                "data": [
+                    19.03361328125,
+                    39.96471875,
+                    86.34471875,
+                    155.91065625
+                ],
+                "stdev": [
+                    4.12534033203125,
+                    6.6901787109375,
+                    68.583578125,
+                    49.60848828125
+                ]
+            },
+            {
+                "label": "Nginx OpenResty",
+                "backgroundColor": "rgba(63, 81, 181, 0.2)",
+                "borderColor": "rgb(63, 81, 181)",
+                "borderWidth": 1,
+                "data": [
+                    2.1939599609375,
+                    32.8524140625,
+                    64.68565625,
+                    39.3199765625
+                ],
+                "stdev": [
+                    1.4143157958984376,
+                    69.3526875,
+                    181.230515625,
+                    143.713828125
+                ]
+            },
+            {
+                "label": "Nginx PHP",
+                "backgroundColor": "rgba(121, 85, 72, 0.2)",
+                "borderColor": "rgb(121, 85, 72)",
+                "borderWidth": 1,
+                "data": [
+                    1.3085418701171876,
+                    2.23021826171875,
+                    7.17554248046875,
+                    10.2775185546875
+                ],
+                "stdev": [
+                    2.3807275390625,
+                    2.436125732421875,
+                    43.3260390625,
+                    34.0303671875
+                ]
+            },
+            {
+                "label": "Python Flask",
+                "backgroundColor": "rgba(158, 158, 158, 0.2)",
+                "borderColor": "rgb(158, 158, 158)",
+                "borderWidth": 1,
+                "data": [
+                    26.03833984375,
+                    26.8421171875,
+                    25.000662109375,
+                    26.632986328125
+                ],
+                "stdev": [
+                    11.0931005859375,
+                    4.09703466796875,
+                    7.2481171875,
+                    4.5377890625
+                ]
+            },
+            {
+                "label": "Java Spring Boot",
+                "backgroundColor": "rgba(156, 39, 176, 0.2)",
+                "borderColor": "rgb(156, 39, 176)",
+                "borderWidth": 1,
+                "data": [
+                    3.715390869140625,
+                    9.3075634765625,
+                    17.20008984375,
+                    28.503798828125
+                ],
+                "stdev": [
+                    8.470064453125,
+                    47.0129453125,
+                    62.86825390625,
+                    86.07359375
+                ]
+            },
+            {
+                "label": "Java Tomcat plain",
+                "backgroundColor": "rgba(103, 58, 183, 0.2)",
+                "borderColor": "rgb(103, 58, 183)",
+                "borderWidth": 1,
+                "data": [
+                    2.584210205078125,
+                    4.75896435546875,
+                    6.42050732421875,
+                    13.043072265625
+                ],
+                "stdev": [
+                    3.806651611328125,
+                    25.129380859375,
+                    30.228630859375,
+                    54.65597265625
+                ]
+            }
+        ]
+    },
+    "options": {
+        "plugins": {
+            "datalabels": {
+                "align": "end",
+                "anchor": "end",
+                "backgroundColor": null,
+                "borderColor": null,
+                "borderRadius": 4,
+                "borderWidth": 1,
+                "color": "#aaaaaa",
+                "offset": 4,
+                "padding": {
+                    "bottom": 20
+                },
+                "rotation": 270,
+                "formatter": "(v, ctx) => Math.round(v) + ' ± ' + Math.round(ctx.dataset.stdev[ctx.dataIndex]);",
+                "font": {
+                    "family": "Roboto"
+                }
+            }
+        },
+        "legend": {
+            "position": "bottom",
+            "align": "center",
+            "fullWidth": false,
+            "labels": {
+                "boxWidth": 20
+            },
+            "fontFamily": "Roboto"
+        },
+        "title": {
+            "display": true,
+            "text": [
+                "Latency of request for analyzed technologies/frameworks",
+                "for testcase: Fetch string from memory"
+            ],
+            "fontFamily": "Roboto",
+            "fontSize": 21,
+            "padding": 20
+        },
+        "layout": {
+            "padding": {
+                "left": 10,
+                "right": 10,
+                "top": 0,
+                "bottom": 10
+            }
+        },
+        "scales": {
+            "yAxes": [
+                {
+                    "ticks": {
+                        "beginAtZero": true,
+                        "stepSize": 25,
+                        "fontFamily": "Roboto"
+                    },
+                    "scaleLabel": {
+                        "display": true,
+                        "labelString": "Latency in seconds (lower is better)",
+                        "fontFamily": "Roboto",
+                        "fontSize": 13,
+                        "padding": 10
+                    }
+                }
+            ],
+            "xAxes": [
+                {
+                    "ticks": {
+                        "fontFamily": "Roboto"
+                    },
+                    "scaleLabel": {
+                        "display": true,
+                        "labelString": "Number of parallel concurrent connections for a duration of 45s",
+                        "fontSize": 13,
+                        "padding": 10,
+                        "fontFamily": "Roboto"
+                    }
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,20 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-websocket.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/annotations-api.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/commons-codec-1.14.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-core-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/java-jwt-3.10.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-annotations-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/minimal-json-0.9.6-SNAPSHOT.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jackson-databind-2.11.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-dbcp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-core.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-jasper.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tomcat-embed-el.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

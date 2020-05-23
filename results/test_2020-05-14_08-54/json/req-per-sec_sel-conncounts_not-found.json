@@ -1,0 +1,262 @@
+{
+    "type": "bar",
+    "data": {
+        "labels": [
+            "100",
+            "200",
+            "400",
+            "800"
+        ],
+        "datasets": [
+            {
+                "label": "ASP.NET Core",
+                "backgroundColor": "rgba(33, 150, 243, 0.2)",
+                "borderColor": "rgb(33, 150, 243)",
+                "borderWidth": 1,
+                "data": [
+                    136534,
+                    148531,
+                    137852,
+                    125711
+                ]
+            },
+            {
+                "label": ".NET Core Nancy",
+                "backgroundColor": "rgba(0, 188, 212, 0.2)",
+                "borderColor": "rgb(0, 188, 212)",
+                "borderWidth": 1,
+                "data": [
+                    3514.49,
+                    5562.39,
+                    5141.07,
+                    4940.93
+                ]
+            },
+            {
+                "label": "Go",
+                "backgroundColor": "rgba(96, 125, 139, 0.2)",
+                "borderColor": "rgb(96, 125, 139)",
+                "borderWidth": 1,
+                "data": [
+                    69300,
+                    72201,
+                    89094,
+                    91621.2
+                ]
+            },
+            {
+                "label": "NodeJS Express",
+                "backgroundColor": "rgba(0, 150, 136, 0.2)",
+                "borderColor": "rgb(0, 150, 136)",
+                "borderWidth": 1,
+                "data": [
+                    15623,
+                    15725,
+                    14130.8,
+                    13914.8
+                ]
+            },
+            {
+                "label": "NodeJS Fastify",
+                "backgroundColor": "rgba(76, 175, 80, 0.2)",
+                "borderColor": "rgb(76, 175, 80)",
+                "borderWidth": 1,
+                "data": [
+                    16734.6,
+                    17448.2,
+                    16717.2,
+                    14735.7
+                ]
+            },
+            {
+                "label": "NodeJS NestJS (Express)",
+                "backgroundColor": "rgba(205, 220, 57, 0.2)",
+                "borderColor": "rgb(205, 220, 57)",
+                "borderWidth": 1,
+                "data": [
+                    3397.07,
+                    3318.94,
+                    3259.98,
+                    3146.94
+                ]
+            },
+            {
+                "label": "NodeJS NestJS (Fastify)",
+                "backgroundColor": "rgba(255, 235, 59, 0.2)",
+                "borderColor": "rgb(255, 235, 59)",
+                "borderWidth": 1,
+                "data": [
+                    11175.9,
+                    10898.3,
+                    10876.6,
+                    10670.8
+                ]
+            },
+            {
+                "label": "NodeJS plain server",
+                "backgroundColor": "rgba(255, 193, 7, 0.2)",
+                "borderColor": "rgb(255, 193, 7)",
+                "borderWidth": 1,
+                "data": [
+                    35973.1,
+                    36645.6,
+                    34341,
+                    33728.1
+                ]
+            },
+            {
+                "label": "NodeJS Ts.ED",
+                "backgroundColor": "rgba(255, 87, 34, 0.2)",
+                "borderColor": "rgb(255, 87, 34)",
+                "borderWidth": 1,
+                "data": [
+                    5558.36,
+                    5025.56,
+                    5130.77,
+                    5373.73
+                ]
+            },
+            {
+                "label": "Nginx OpenResty",
+                "backgroundColor": "rgba(63, 81, 181, 0.2)",
+                "borderColor": "rgb(63, 81, 181)",
+                "borderWidth": 1,
+                "data": [
+                    53431.1,
+                    53053.2,
+                    52077.2,
+                    52498.5
+                ]
+            },
+            {
+                "label": "Nginx PHP",
+                "backgroundColor": "rgba(121, 85, 72, 0.2)",
+                "borderColor": "rgb(121, 85, 72)",
+                "borderWidth": 1,
+                "data": [
+                    83139.3,
+                    102932,
+                    107439,
+                    105215
+                ]
+            },
+            {
+                "label": "Python Flask",
+                "backgroundColor": "rgba(158, 158, 158, 0.2)",
+                "borderColor": "rgb(158, 158, 158)",
+                "borderWidth": 1,
+                "data": [
+                    2700.35,
+                    2810.2,
+                    2882.02,
+                    2802
+                ]
+            },
+            {
+                "label": "Java Spring Boot",
+                "backgroundColor": "rgba(156, 39, 176, 0.2)",
+                "borderColor": "rgb(156, 39, 176)",
+                "borderWidth": 1,
+                "data": [
+                    10329.1,
+                    9554.18,
+                    10745.5,
+                    10187.4
+                ]
+            },
+            {
+                "label": "Java Tomcat plain",
+                "backgroundColor": "rgba(103, 58, 183, 0.2)",
+                "borderColor": "rgb(103, 58, 183)",
+                "borderWidth": 1,
+                "data": [
+                    43851.6,
+                    52402.4,
+                    70210.8,
+                    75633.7
+                ]
+            }
+        ]
+    },
+    "options": {
+        "plugins": {
+            "datalabels": {
+                "align": "end",
+                "anchor": "end",
+                "backgroundColor": null,
+                "borderColor": null,
+                "borderRadius": 4,
+                "borderWidth": 1,
+                "color": "#aaaaaa",
+                "offset": 4,
+                "padding": {
+                    "bottom": 20
+                },
+                "rotation": 270,
+                "formatter": "(v) => Math.round(v);",
+                "font": {
+                    "family": "Roboto"
+                }
+            }
+        },
+        "legend": {
+            "position": "bottom",
+            "align": "center",
+            "fullWidth": false,
+            "labels": {
+                "boxWidth": 20
+            },
+            "fontFamily": "Roboto"
+        },
+        "title": {
+            "display": true,
+            "text": [
+                "Comparison of throughput (Requests/sec) for analyzed technologies/frameworks",
+                "for testcase: Request a non-existing url"
+            ],
+            "fontFamily": "Roboto",
+            "fontSize": 21,
+            "padding": 20
+        },
+        "layout": {
+            "padding": {
+                "left": 10,
+                "right": 10,
+                "top": 0,
+                "bottom": 10
+            }
+        },
+        "scales": {
+            "yAxes": [
+                {
+                    "ticks": {
+                        "beginAtZero": true,
+                        "stepSize": 25000,
+                        "fontFamily": "Roboto"
+                    },
+                    "scaleLabel": {
+                        "display": true,
+                        "labelString": "Requests/sec (higher is better)",
+                        "fontFamily": "Roboto",
+                        "fontSize": 13,
+                        "padding": 10
+                    }
+                }
+            ],
+            "xAxes": [
+                {
+                    "ticks": {
+                        "fontFamily": "Roboto"
+                    },
+                    "scaleLabel": {
+                        "display": true,
+                        "labelString": "Number of parallel concurrent connections for a duration of 30s",
+                        "fontSize": 13,
+                        "padding": 10,
+                        "fontFamily": "Roboto"
+                    }
+                }
+            ]
+        }
+    }
+}

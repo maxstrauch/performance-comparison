@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="module_salone-tomcat" default="compile.module.salone-tomcat">
+  <dirname property="module.salone-tomcat.basedir" file="${ant.file.module_salone-tomcat}"/>
+  
+  <property name="module.jdk.home.salone-tomcat" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.salone-tomcat" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.salone-tomcat" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.salone-tomcat" value="-encoding UTF-8 -source 8 -target 8 ${compiler.args}"/>
+  
+  <property name="salone-tomcat.output.dir" value="${module.salone-tomcat.basedir}/out/production/salone-tomcat"/>
+  <property name="salone-tomcat.testoutput.dir" value="${module.salone-tomcat.basedir}/out/test/salone-tomcat"/>
+  
+  <path id="salone-tomcat.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="salone-tomcat.module.production.classpath">
+    <path refid="${module.jdk.classpath.salone-tomcat}"/>
+    <pathelement location="${basedir}/libs8/annotations-api.jar"/>
+    <pathelement location="${basedir}/libs8/ecj-4.6.3.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-dbcp.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-core.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-el.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-jasper.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-websocket.jar"/>
+    <pathelement location="${basedir}/libs/minimal-json-0.9.6-SNAPSHOT.jar"/>
+  </path>
+  
+  <path id="salone-tomcat.runtime.production.module.classpath">
+    <pathelement location="${salone-tomcat.output.dir}"/>
+    <pathelement location="${basedir}/libs8/annotations-api.jar"/>
+    <pathelement location="${basedir}/libs8/ecj-4.6.3.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-dbcp.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-core.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-el.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-jasper.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-websocket.jar"/>
+    <pathelement location="${basedir}/libs/minimal-json-0.9.6-SNAPSHOT.jar"/>
+  </path>
+  
+  <path id="salone-tomcat.module.classpath">
+    <path refid="${module.jdk.classpath.salone-tomcat}"/>
+    <pathelement location="${salone-tomcat.output.dir}"/>
+    <pathelement location="${basedir}/libs8/annotations-api.jar"/>
+    <pathelement location="${basedir}/libs8/ecj-4.6.3.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-dbcp.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-core.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-el.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-jasper.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-websocket.jar"/>
+    <pathelement location="${basedir}/libs/minimal-json-0.9.6-SNAPSHOT.jar"/>
+  </path>
+  
+  <path id="salone-tomcat.runtime.module.classpath">
+    <pathelement location="${salone-tomcat.testoutput.dir}"/>
+    <pathelement location="${salone-tomcat.output.dir}"/>
+    <pathelement location="${basedir}/libs8/annotations-api.jar"/>
+    <pathelement location="${basedir}/libs8/ecj-4.6.3.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-dbcp.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-core.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-el.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-jasper.jar"/>
+    <pathelement location="${basedir}/libs8/tomcat-embed-websocket.jar"/>
+    <pathelement location="${basedir}/libs/minimal-json-0.9.6-SNAPSHOT.jar"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.salone-tomcat">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.salone-tomcat">
+    <patternset refid="excluded.from.module.salone-tomcat"/>
+  </patternset>
+  
+  <path id="salone-tomcat.module.sourcepath">
+    <dirset dir="${module.salone-tomcat.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.salone-tomcat" depends="compile.module.salone-tomcat.production,compile.module.salone-tomcat.tests" description="Compile module salone-tomcat"/>
+  
+  <target name="compile.module.salone-tomcat.production" depends="register.custom.compilers" description="Compile module salone-tomcat; production classes">
+    <mkdir dir="${salone-tomcat.output.dir}"/>
+    <javac2 destdir="${salone-tomcat.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.salone-tomcat}/javac">
+      <compilerarg line="${compiler.args.salone-tomcat}"/>
+      <bootclasspath refid="salone-tomcat.module.bootclasspath"/>
+      <classpath refid="salone-tomcat.module.production.classpath"/>
+      <src refid="salone-tomcat.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.salone-tomcat"/>
+    </javac2>
+    
+    <copy todir="${salone-tomcat.output.dir}">
+      <fileset dir="${module.salone-tomcat.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.salone-tomcat.tests" depends="register.custom.compilers,compile.module.salone-tomcat.production" description="compile module salone-tomcat; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.salone-tomcat" description="cleanup module">
+    <delete dir="${salone-tomcat.output.dir}"/>
+    <delete dir="${salone-tomcat.testoutput.dir}"/>
+  </target>
+</project>

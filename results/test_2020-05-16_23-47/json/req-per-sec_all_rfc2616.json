@@ -1,0 +1,367 @@
+{
+    "type": "line",
+    "data": {
+        "labels": [
+            "50",
+            "100",
+            "150",
+            "200",
+            "250",
+            "300",
+            "350",
+            "400",
+            "500",
+            "600",
+            "700",
+            "800"
+        ],
+        "datasets": [
+            {
+                "label": "ASP.NET Core",
+                "fill": false,
+                "borderColor": "rgb(33, 150, 243)",
+                "borderWidth": 2,
+                "data": [
+                    7631.12,
+                    7131.23,
+                    6690.49,
+                    6339.99,
+                    6084.55,
+                    5937.4,
+                    5877.88,
+                    5767.48,
+                    5716.56,
+                    5686.26,
+                    5668.46,
+                    5629.9
+                ]
+            },
+            {
+                "label": ".NET Core Nancy",
+                "fill": false,
+                "borderColor": "rgb(0, 188, 212)",
+                "borderWidth": 2,
+                "data": [
+                    1154.79,
+                    1145.37,
+                    1156.49,
+                    1133.81,
+                    1157.9,
+                    1146.35,
+                    1148.11,
+                    1144.9,
+                    1151.62,
+                    1158.61,
+                    1133.91,
+                    1137.61
+                ]
+            },
+            {
+                "label": "Go",
+                "fill": false,
+                "borderColor": "rgb(96, 125, 139)",
+                "borderWidth": 2,
+                "data": [
+                    14036.8,
+                    13444,
+                    13179.4,
+                    13147.5,
+                    13150.6,
+                    13062.2,
+                    13072.2,
+                    13003.7,
+                    12873.1,
+                    9783.93,
+                    11473.3,
+                    12430.3
+                ]
+            },
+            {
+                "label": "NodeJS Express",
+                "fill": false,
+                "borderColor": "rgb(0, 150, 136)",
+                "borderWidth": 2,
+                "data": [
+                    2651.73,
+                    2629.05,
+                    2554.82,
+                    2494.14,
+                    2435.38,
+                    2346.33,
+                    2252.82,
+                    2425.72,
+                    2312.64,
+                    2357.06,
+                    2356.27,
+                    2264.89
+                ]
+            },
+            {
+                "label": "NodeJS Fastify",
+                "fill": false,
+                "borderColor": "rgb(76, 175, 80)",
+                "borderWidth": 2,
+                "data": [
+                    2304.45,
+                    2109.67,
+                    2194.3,
+                    2175.17,
+                    1919.38,
+                    2127.44,
+                    2059.68,
+                    2080.62,
+                    2120.92,
+                    2084.31,
+                    1890.88,
+                    1959.38
+                ]
+            },
+            {
+                "label": "NodeJS NestJS (Express)",
+                "fill": false,
+                "borderColor": "rgb(205, 220, 57)",
+                "borderWidth": 2,
+                "data": [
+                    2850.72,
+                    2389.71,
+                    2591.24,
+                    2515.32,
+                    2391.23,
+                    2389.1,
+                    2285.2,
+                    2394.6,
+                    2323.63,
+                    2347.18,
+                    2236.14,
+                    2190.33
+                ]
+            },
+            {
+                "label": "NodeJS NestJS (Fastify)",
+                "fill": false,
+                "borderColor": "rgb(255, 235, 59)",
+                "borderWidth": 2,
+                "data": [
+                    2141.31,
+                    2271.38,
+                    2228.6,
+                    2082.17,
+                    2126.06,
+                    2096.58,
+                    2035.34,
+                    2123.25,
+                    2120.66,
+                    1998.15,
+                    1996.83,
+                    1887.02
+                ]
+            },
+            {
+                "label": "NodeJS plain server",
+                "fill": false,
+                "borderColor": "rgb(255, 193, 7)",
+                "borderWidth": 2,
+                "data": [
+                    1564.26,
+                    1516.56,
+                    1506.6,
+                    1505.22,
+                    1520.47,
+                    1537.27,
+                    1509.25,
+                    1537.11,
+                    1528.33,
+                    1503.64,
+                    1513.95,
+                    1503.67
+                ]
+            },
+            {
+                "label": "NodeJS Ts.ED",
+                "fill": false,
+                "borderColor": "rgb(255, 87, 34)",
+                "borderWidth": 2,
+                "data": [
+                    1959.7,
+                    1935.72,
+                    1939.95,
+                    1911.26,
+                    1869.4,
+                    1855.28,
+                    1763.95,
+                    1852.71,
+                    1842.14,
+                    1722.51,
+                    1590.55,
+                    1568.78
+                ]
+            },
+            {
+                "label": "Nginx OpenResty",
+                "fill": false,
+                "borderColor": "rgb(63, 81, 181)",
+                "borderWidth": 2,
+                "data": [
+                    9339.47,
+                    8808.17,
+                    9410.78,
+                    9383.75,
+                    9373.31,
+                    9244.37,
+                    9181.68,
+                    9389.33,
+                    9276.39,
+                    9157.78,
+                    9075.28,
+                    9392.98
+                ]
+            },
+            {
+                "label": "Nginx PHP",
+                "fill": false,
+                "borderColor": "rgb(121, 85, 72)",
+                "borderWidth": 2,
+                "data": [
+                    15664.3,
+                    14318.8,
+                    13720.9,
+                    13436.7,
+                    13313.1,
+                    13161.8,
+                    13042,
+                    12980.8,
+                    12746.5,
+                    12505.8,
+                    12086.7,
+                    11913.7
+                ]
+            },
+            {
+                "label": "Python Flask",
+                "fill": false,
+                "borderColor": "rgb(158, 158, 158)",
+                "borderWidth": 2,
+                "data": [
+                    1253.83,
+                    1255.25,
+                    1231.72,
+                    1246.8,
+                    1272.15,
+                    1320.12,
+                    1273.97,
+                    1224.45,
+                    1231.69,
+                    1247.21,
+                    1221.93,
+                    1209.64
+                ]
+            },
+            {
+                "label": "Java Spring Boot",
+                "fill": false,
+                "borderColor": "rgb(156, 39, 176)",
+                "borderWidth": 2,
+                "data": [
+                    3207.52,
+                    3370.83,
+                    3467.57,
+                    3251.69,
+                    3570.65,
+                    3468.41,
+                    3771.89,
+                    3959.85,
+                    3959.51,
+                    3965.83,
+                    3911.28,
+                    3789.37
+                ]
+            },
+            {
+                "label": "Java Tomcat plain",
+                "fill": false,
+                "borderColor": "rgb(103, 58, 183)",
+                "borderWidth": 2,
+                "data": [
+                    3290.16,
+                    3379.03,
+                    3495.15,
+                    3399.04,
+                    3684.68,
+                    3981.96,
+                    4118.74,
+                    3949.77,
+                    3985.19,
+                    3986.26,
+                    3965.83,
+                    4186.42
+                ]
+            }
+        ]
+    },
+    "options": {
+        "plugins": {
+            "datalabels": {
+                "display": false
+            }
+        },
+        "legend": {
+            "position": "bottom",
+            "align": "center",
+            "fullWidth": false,
+            "labels": {
+                "boxWidth": 20
+            },
+            "fontFamily": "Roboto"
+        },
+        "title": {
+            "display": true,
+            "text": [
+                "Behaviour of throughput (Requests/sec) for different parallel connections and analyzed",
+                "technologies/frameworks for testcase: Fetch big document (~420KiB) using static serve"
+            ],
+            "fontFamily": "Roboto",
+            "fontSize": 21,
+            "padding": 20
+        },
+        "layout": {
+            "padding": {
+                "left": 10,
+                "right": 10,
+                "top": 0,
+                "bottom": 10
+            }
+        },
+        "scales": {
+            "yAxes": [
+                {
+                    "ticks": {
+                        "beginAtZero": true,
+                        "stepSize": 2500,
+                        "fontFamily": "Roboto"
+                    },
+                    "scaleLabel": {
+                        "display": true,
+                        "labelString": "Requests/sec (higher is better)",
+                        "fontFamily": "Roboto",
+                        "fontSize": 13,
+                        "padding": 10
+                    }
+                }
+            ],
+            "xAxes": [
+                {
+                    "ticks": {
+                        "fontFamily": "Roboto"
+                    },
+                    "scaleLabel": {
+                        "display": true,
+                        "labelString": "Number of parallel concurrent connections for a duration of 45s",
+                        "fontSize": 13,
+                        "padding": 10,
+                        "fontFamily": "Roboto"
+                    }
+                }
+            ]
+        }
+    }
+}

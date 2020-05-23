@@ -1,0 +1,17 @@
+.DS_Store
+.gradle
+.vscode
+node_modules
+__pycache__
+
+wrk/*
+
+test-aspnet-core/bin
+test-aspnet-core/obj
+test-dotnetcore-nancy/bin
+test-dotnetcore-nancy/obj
+
+test-python-flask/venv
+
+test-springboot/build
+test-tomcat-plain/out

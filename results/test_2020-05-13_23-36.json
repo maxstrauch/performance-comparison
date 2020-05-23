@@ -1,0 +1,60 @@
+[
+    {
+        "requests": {
+            "min": 20,
+            "max": 565,
+            "mean": 255.65577889447,
+            "stdev": 97.57484812528,
+            "percentile_99_999perc": 565,
+            "percentile_99_0perc": 520,
+            "percentile_90perc": 393,
+            "percentile_75perc": 310,
+            "percentile_50perc": 250
+        },
+        "latency": {
+            "min": 1010,
+            "max": 249693,
+            "mean": 48785.845387694,
+            "stdev": 29164.555834302,
+            "percentile_99_999perc": 249693,
+            "percentile_99_0perc": 149667,
+            "percentile_90perc": 81078,
+            "percentile_75perc": 61949,
+            "percentile_50perc": 46664
+        },
+        "summary": {
+            "bytes": 3236604,
+            "errors": {
+                "write": 0,
+                "read": 0,
+                "status": 0,
+                "timeout": 0,
+                "connect": 0
+            },
+            "duration": 10.048437,
+            "requests": 10178,
+            "requests_per_sec": 1012.8938460777532,
+            "transfer_per_sec": 322100.2430527255,
+            "threads": 4,
+            "connections": 50
+        },
+        "iat": "2020-05-13T21:36:55.282Z",
+        "testcase": "jwt-generate",
+        "name": "test-go-mux",
+        "resources": {
+            "cpu": {
+                "min": 22.11,
+                "max": 26.66,
+                "avg": 23.782,
+                "stder": 1.5226345589142525
+            },
+            "mem": {
+                "min": 6409945,
+                "max": 6770655,
+                "avg": 6660974,
+                "stder": 131457.4215873718
+            },
+            "totalMemoryBytes": 1031274496
+        }
+    }
+]
