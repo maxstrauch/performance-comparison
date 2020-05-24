@@ -19,7 +19,7 @@ for TEST_CASE in $(ls -1 | grep "^test-"); do
     ./build.sh
 
     if [ $? -ne 0 ]; then
-        echo "error: cannot build/prepare for testcase ${TEST_CASE}"
+        echo "error: cannot build/prepare for test case ${TEST_CASE}"
         exit 1
     fi
 

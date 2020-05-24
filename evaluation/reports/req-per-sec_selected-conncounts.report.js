@@ -103,7 +103,7 @@ module.exports = async function () {
                         "display": true,
                         "text": [
                             'Comparison of throughput (Requests/sec) for analyzed technologies/frameworks',
-                            `for testcase: ${testcaseKeyToCaption(testcase)}`
+                            `for test case: ${testcaseKeyToCaption(testcase)}`
                         ],
                         fontFamily: "Roboto",
                         "fontSize": 21,

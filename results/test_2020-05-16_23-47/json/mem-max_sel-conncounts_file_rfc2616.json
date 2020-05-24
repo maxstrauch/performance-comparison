@@ -464,7 +464,7 @@
             "display": true,
             "text": [
                 "Maximum memory consumption for analyzed technologies/frameworks",
-                "for testcase: Fetch big document (~420KiB) using explicit file read"
+                "for test case: Fetch big document (~420KiB) using explicit file read"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

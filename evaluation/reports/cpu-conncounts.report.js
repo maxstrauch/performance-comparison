@@ -103,7 +103,7 @@ module.exports = async function () {
                         "display": true,
                         "text": [
                             `Relative CPU usage over the test time of ${testDuration}s, `,
-                            `for testcase: ${testcaseKeyToCaption(testcase)}`
+                            `for test case: ${testcaseKeyToCaption(testcase)}`
                         ],
                         fontFamily: "Roboto",
                         "fontSize": 21,

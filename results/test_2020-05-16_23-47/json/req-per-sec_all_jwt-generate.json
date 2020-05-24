@@ -317,7 +317,7 @@
             "display": true,
             "text": [
                 "Behaviour of throughput (Requests/sec) for different parallel connections and analyzed",
-                "technologies/frameworks for testcase: Generation of a dynamic JWT token"
+                "technologies for test case: Generation of a dynamic JWT token"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

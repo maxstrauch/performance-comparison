@@ -296,7 +296,7 @@
             "display": true,
             "text": [
                 "Latency of request for analyzed technologies/frameworks",
-                "for testcase: Generation of a dynamic JWT token"
+                "for test case: Generation of a dynamic JWT token"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

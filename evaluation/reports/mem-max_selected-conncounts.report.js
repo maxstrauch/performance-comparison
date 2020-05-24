@@ -125,7 +125,7 @@ module.exports = async function () {
                         "display": true,
                         "text": [
                             'Maximum memory consumption for analyzed technologies/frameworks',
-                            `for testcase: ${testcaseKeyToCaption(testcase)}`
+                            `for test case: ${testcaseKeyToCaption(testcase)}`
                         ],
                         fontFamily: "Roboto",
                         "fontSize": 21,

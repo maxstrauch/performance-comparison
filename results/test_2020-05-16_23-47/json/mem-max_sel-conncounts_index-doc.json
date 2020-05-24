@@ -464,7 +464,7 @@
             "display": true,
             "text": [
                 "Maximum memory consumption for analyzed technologies/frameworks",
-                "for testcase: Fetch string from memory"
+                "for test case: Fetch string from memory"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

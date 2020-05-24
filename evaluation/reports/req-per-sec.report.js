@@ -80,7 +80,7 @@ module.exports = async function () {
                     "display": true,
                     "text": [
                         'Throughput (Requests/sec) for different parallel connections and analyzed',
-                        `technologies/frameworks, average over all testcases`
+                        `technologies, average over all test cases`
                     ],
                     fontFamily: "Roboto",
                     "fontSize": 21,

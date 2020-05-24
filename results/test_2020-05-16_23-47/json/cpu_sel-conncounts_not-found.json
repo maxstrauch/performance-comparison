@@ -449,7 +449,7 @@
             "display": true,
             "text": [
                 "Relative CPU usage over the test time of 45s, ",
-                "for testcase: Request a non-existing url"
+                "for test case: Request a non-existing url"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

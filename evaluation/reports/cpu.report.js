@@ -82,7 +82,7 @@ module.exports = async function () {
                     "display": true,
                     "text": [
                         `Relative CPU usage over the test time of ${testDuration}s, `,
-                        `averaged over all testcases for different connection counts`
+                        `averaged over all test cases for different connection counts`
                     ],
                     fontFamily: "Roboto",
                     "fontSize": 21,

@@ -212,7 +212,7 @@
             "display": true,
             "text": [
                 "Comparison of throughput (Requests/sec) for analyzed technologies/frameworks",
-                "for testcase: Fetch big document (~420KiB) using static serve"
+                "for test case: Fetch big document (~420KiB) using static serve"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

@@ -78,7 +78,7 @@ module.exports = async function () {
                     "display": true,
                     "text": [
                         'Average memory consumption for different parallel connections and analyzed',
-                        `technologies/frameworks, average over all testcases`
+                        `technologies/frameworks, average over all test cases`
                     ],
                     fontFamily: "Roboto",
                     "fontSize": 21,

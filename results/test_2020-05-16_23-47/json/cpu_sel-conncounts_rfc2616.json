@@ -449,7 +449,7 @@
             "display": true,
             "text": [
                 "Relative CPU usage over the test time of 45s, ",
-                "for testcase: Fetch big document (~420KiB) using static serve"
+                "for test case: Fetch big document (~420KiB) using static serve"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

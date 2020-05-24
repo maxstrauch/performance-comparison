@@ -109,7 +109,7 @@ module.exports = async function () {
                         "display": true,
                         "text": [
                             'Latency of request for analyzed technologies/frameworks',
-                            `for testcase: ${testcaseKeyToCaption(testcase)}`
+                            `for test case: ${testcaseKeyToCaption(testcase)}`
                         ],
                         fontFamily: "Roboto",
                         "fontSize": 21,

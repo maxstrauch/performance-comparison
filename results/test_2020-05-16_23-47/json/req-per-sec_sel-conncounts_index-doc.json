@@ -212,7 +212,7 @@
             "display": true,
             "text": [
                 "Comparison of throughput (Requests/sec) for analyzed technologies/frameworks",
-                "for testcase: Fetch string from memory"
+                "for test case: Fetch string from memory"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

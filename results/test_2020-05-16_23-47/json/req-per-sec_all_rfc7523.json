@@ -317,7 +317,7 @@
             "display": true,
             "text": [
                 "Behaviour of throughput (Requests/sec) for different parallel connections and analyzed",
-                "technologies/frameworks for testcase: Fetch small document (~26KiB) using static serve"
+                "technologies for test case: Fetch small document (~26KiB) using static serve"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

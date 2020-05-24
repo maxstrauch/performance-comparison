@@ -82,7 +82,7 @@ module.exports = async function () {
                     "display": true,
                     "text": [
                         'Latency of request for analyzed technologies/frameworks',
-                        `averaged over all testcases for different connection counts`
+                        `averaged over all test cases for different connection counts`
                     ],
                     fontFamily: "Roboto",
                     "fontSize": 21,

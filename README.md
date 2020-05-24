@@ -28,4 +28,12 @@ The following diagrams show part of the results. Under `results/**/{pdf|svg|png}
   - `bin` contains the main script file (`run.js` is the main, executed by `./run.sh`) to run the tests
   - `evaluation` contains the utility programs to generate the charts
   - `results` contains all the raw data
-  - `test-**` contains all test cases where each directory represents one testcase for a technology
+  - `test-**` contains all test cases where each directory represents one test case for a technology
+
+# Get results
+
+Run from within the `evaluation/` subdirectory the command:
+
+   $ node run.js -f ../results/test_2020-05-16_23-47.json
+
+which will then generate the diagrams into `results/test_2020-05-16_23-47/`.

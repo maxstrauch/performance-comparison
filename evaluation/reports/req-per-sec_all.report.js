@@ -86,7 +86,7 @@ module.exports = async function () {
                         "display": true,
                         "text": [
                             'Behaviour of throughput (Requests/sec) for different parallel connections and analyzed',
-                            `technologies/frameworks for testcase: ${testcaseKeyToCaption(testcase)}`
+                            `technologies for test case: ${testcaseKeyToCaption(testcase)}`
                         ],
                         fontFamily: "Roboto",
                         "fontSize": 21,

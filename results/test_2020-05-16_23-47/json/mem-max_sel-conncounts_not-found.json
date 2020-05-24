@@ -464,7 +464,7 @@
             "display": true,
             "text": [
                 "Maximum memory consumption for analyzed technologies/frameworks",
-                "for testcase: Request a non-existing url"
+                "for test case: Request a non-existing url"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

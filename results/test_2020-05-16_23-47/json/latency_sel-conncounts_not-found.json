@@ -296,7 +296,7 @@
             "display": true,
             "text": [
                 "Latency of request for analyzed technologies/frameworks",
-                "for testcase: Request a non-existing url"
+                "for test case: Request a non-existing url"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

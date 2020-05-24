@@ -296,7 +296,7 @@
             "display": true,
             "text": [
                 "Latency of request for analyzed technologies/frameworks",
-                "for testcase: Fetch small document (~26KiB) using explicit file read"
+                "for test case: Fetch small document (~26KiB) using explicit file read"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

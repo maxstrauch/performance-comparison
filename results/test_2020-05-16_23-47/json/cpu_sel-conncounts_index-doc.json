@@ -449,7 +449,7 @@
             "display": true,
             "text": [
                 "Relative CPU usage over the test time of 45s, ",
-                "for testcase: Fetch string from memory"
+                "for test case: Fetch string from memory"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,

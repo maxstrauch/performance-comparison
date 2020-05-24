@@ -212,7 +212,7 @@
             "display": true,
             "text": [
                 "Comparison of throughput (Requests/sec) for analyzed technologies/frameworks",
-                "for testcase: Request a non-existing url"
+                "for test case: Request a non-existing url"
             ],
             "fontFamily": "Roboto",
             "fontSize": 21,
