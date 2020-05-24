@@ -1,7 +1,7 @@
-A real-world performance comparison of web frameworks 
+Code to conduct a real-world performance comparison of web frameworks
 ===
 
-This repo contains the sources for the article which gives an overview and compares the performance of current state-of-the-art technologies for developing web services. In this repo fourteen technologies and frameworks are tested against seven real-world test cases to emphasize the strengths and weaknesses of the technologies under test.
+This repo contains the sources for the article ["A real-world comparison of web frameworks with a focus on NodeJS" published on Medium](https://medium.com/@maxstrauch/a-real-world-comparison-of-web-frameworks-with-a-focus-on-nodejs-c00efe1df7ca?sk=87528f12850cb7162cd6052f478a1306) which gives an overview and compares the performance of current state-of-the-art technologies for developing web services. In this repo fourteen technologies and frameworks are tested against seven real-world test cases to emphasize the strengths and weaknesses of the technologies under test.
 
 The analyzed technologies are:
 
